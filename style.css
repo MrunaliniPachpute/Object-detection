@@ -1,0 +1,62 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.banner-img {
+  height: 20rem;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.captures {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-evenly;
+  align-items: center;
+
+  /* 🔧 Fix: center the whole block */
+  width: 700px;
+  margin: 0 auto; /* This centers the .captures div itself */
+  border: 2px SOLID BLACK;
+  text-align: center;
+}
+
+.captures img {
+  border: 2px solid black;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+
+.Recognition {
+  width: 700px;
+  border: 2px solid black;
+  font-size: 20px;
+  line-height: 25px;
+  margin: 15px auto;
+  padding: 5px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5rem;
+  background-color: gainsboro;
+}
+
+#video {
+  border: 2px solid black;
+  margin-top: 1rem;
+}
+button {
+  margin: 1rem;
+  padding: 0.6rem 1rem;
+  font-size: 16px;
+}
+
+h2{
+    text-align: center;
+}

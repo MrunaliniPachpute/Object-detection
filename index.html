@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetraAI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="banner">
+        <img src="Banner.png" alt="Banner image" class="banner-img">
+    </div>
+    <h2>NetraAI Live Camera Capture</h2>
+    <div class="captures">
+        <div>
+            <img id="front" src="cam.png" alt="Front" class="img" />
+            <p>Front</p>
+        </div>
+        <div>
+            <img id="right" src="cam.png" alt="Right" class="img" />
+            <p>Right</p>
+        </div>
+        <div>
+            <img id="left" src="cam.png" alt="Left" class="img" />
+            <p>Left</p>
+        </div>
+        <div>
+            <img id="back" src="cam.png" alt="Back" class="img" />
+            <p>Back</p>
+        </div>
+    </div>
+
+    <video id="video" width="320" height="240" autoplay>
+    </video>
+    <br>
+    <button id="captureBtn">
+        Capture Next Image
+    </button>
+
+    <canvas id="canvas" width="320" height="240" style="display:none;"></canvas>
+
+    <div class="Recognition" id="recognitionText">
+        Capturing images...
+    </div>
+
+
+    <div class="footer">&copy; All rights reserved NetraAI </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
