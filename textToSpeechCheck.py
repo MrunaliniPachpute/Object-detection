@@ -10,5 +10,5 @@ engine.setProperty('voice', voices[1].id)
 engine.setProperty('rate', 150)     # Speed
 engine.setProperty('volume', 1.0)   # Max volume
 
-engine.say("Hello! I'm NetraAI, here to assist you.Namaste! मैं NetraAI हूँ, आपकी सहायता के लिए तैयार हूँ।")
+engine.say("Hello! I'm , here to assist you.Namaste!")
 engine.runAndWait()
